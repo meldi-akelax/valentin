@@ -1,0 +1,48 @@
+body{
+    background: #fff6fb;
+    min-height: 100vh;
+}
+main{
+    height: 100%;
+    background: #fff6fb;
+}
+header{
+    width: 100%;
+    overflow: hidden;
+}
+h1{
+    line-height: 100% !important;
+}
+footer{
+    padding: 10px 0;
+    font-weight: 500;
+    background: #00000009;
+    color: #e82841;
+}
+.btn-custom{
+    border-radius: 50px;
+    box-shadow: 0 !important;
+}
+
+.border{
+    border: 1px solid #e82841;
+}
+.border-white{
+    border: 2px solid #fff6fb;
+}
+
+.top-content{
+    border-radius: 0 0 120% 60%;
+    background: linear-gradient( -135deg, #e82841 0%, #b92136 100%);
+    width: 110%;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 601px) {
+    .top-content{
+        border-radius: 0 0 25% 0;
+    }
+}
